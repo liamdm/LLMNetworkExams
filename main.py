@@ -94,7 +94,7 @@ if __name__ == "__main__":
     ]
 
     # if you are running this for yourself, we recommend using the new save format for everything
-    gpt_5_savers = {
+    nd_json_savers = {
         "gpt-5.1-2025-11-13-None": NDJsonSaver(
             "outputs/gpt5.ndjson"
         ),
@@ -167,8 +167,8 @@ if __name__ == "__main__":
 
                 # determine if we are using the new save approach
                 model_key = f"{model}-{reasoning_effort}"
-                if model in gpt_5_savers:
-                    gpt_5_saver = gpt_5_savers[model_key]
+                if model in nd_json_savers:
+                    gpt_5_saver = nd_json_savers[model_key]
                     legacy_save = False
 
                 for repeat in [1, 2, 3, 4, 5]:
