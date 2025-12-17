@@ -65,7 +65,7 @@ For each exam dataset:
   - A **category (v2)**
   - A **difficulty rating**
 
-Tagging and difficulty estimation are performed using a strong reference model to ensure consistency across datasets.
+Tagging is performed using a strong reference model to ensure consistency across datasets. Difficulty estimation is done per model.
 
 ---
 
