@@ -106,25 +106,6 @@ The pipeline produces several structured outputs:
 
 ---
 
-## 🔁 Reproducibility Notes
-
-- All experiments are deterministic **per repeat** via request caching.
-- Threaded execution is used to accelerate large runs while preserving correctness.
-- The framework supports resuming interrupted runs without recomputing completed samples.
-
----
-
-## 📊 Intended Use
-
-This repository is intended for:
-
-- Researchers studying LLM reasoning in specialized technical domains
-- Comparative evaluation of open-weight vs closed-weight models
-- Analysis of prompting, temperature, and reasoning controls
-- Reproducible benchmarking against professional certification standards
-
----
-
 ## 📜 License & Disclaimer
 
 This project is provided for **research and evaluation purposes only**.  
