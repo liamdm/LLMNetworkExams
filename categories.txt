@@ -1,0 +1,13 @@
+Conceptual Understanding
+Practical Application
+Analytical
+Memory Based
+Calculation Based
+Networking Fundamentals
+Routing and Switching
+Infrastructure Services
+Infrastructure Security
+WAN Technologies
+Infrastructure Management
+Network Automation and Programmability
+Troubleshooting

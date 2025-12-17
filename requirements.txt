@@ -1,0 +1,7 @@
+duckdb
+numpy
+pandas
+matplotlib
+openai
+llamaapi
+bs4
