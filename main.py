@@ -163,7 +163,7 @@ if __name__ == "__main__":
         last_iter_time = time.time()
         for reasoning_effort in ["medium", None]:
             for model in models:
-                legacy_save = False
+                legacy_save = True
 
                 # determine if we are using the new save approach
                 model_key = f"{model}-{reasoning_effort}"
